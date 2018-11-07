@@ -3,4 +3,21 @@
     <dimen name="splash_text_size">35sp</dimen>
     <dimen name="start_button_elevation">5dp</dimen>
     <dimen name="start_button_text_size">20sp</dimen>
+
+    <dimen name="song_name_marginTop">15dp</dimen>
+    <dimen name="song_name_textSize">20sp</dimen>
+
+    <dimen name="artist_name_textSize">20sp</dimen>
+
+    <dimen name="progress_container_padding">10dp</dimen>
+    <dimen name="song_progress_margin">10dp</dimen>
+
+    <dimen name="upper_cp_img_height">32dp</dimen>
+    <dimen name="upper_cp_marginTop">15dp</dimen>
+    <dimen name="upper_cp_marginBottom">15dp</dimen>
+
+    <dimen name="lower_cp_img_height">50dp</dimen>
+    <dimen name="lower_cp_img_marginTop">7dp</dimen>
+    <dimen name="lower_cp_marginTop">10dp</dimen>
+    <dimen name="lower_cp_marginBottom">10dp</dimen>
 </resources>
