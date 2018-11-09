@@ -20,4 +20,10 @@
     <dimen name="lower_cp_img_marginTop">7dp</dimen>
     <dimen name="lower_cp_marginTop">10dp</dimen>
     <dimen name="lower_cp_marginBottom">10dp</dimen>
+
+    <dimen name="playlistItem_padding">10dp</dimen>
+    <dimen name="playlistItem_thumb_dimens">64dp</dimen>
+    <dimen name="playlistItem_song_title_marginTop">2dp</dimen>
+    <dimen name="playlistItem_song_title_textSize">22sp</dimen>
+    <dimen name="playlistItem_artist_name_textSize">20sp</dimen>
 </resources>

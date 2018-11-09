@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp">
+    android:padding="@dimen/playlistItem_padding">
 
     <ImageView
         android:id="@+id/album_art_thumb"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="@dimen/playlistItem_thumb_dimens"
+        android:layout_height="@dimen/playlistItem_thumb_dimens"
         android:src="@drawable/discplayer" />
 
     <LinearLayout
@@ -16,16 +16,16 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingLeft="10dp">
+        android:paddingLeft="@dimen/playlistItem_padding">
 
         <TextView
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="@dimen/playlistItem_song_title_marginTop"
             android:id="@+id/song_name"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             tools:text="Song Name"
             android:textColor="@color/black"
-            android:textSize="22sp"
+            android:textSize="@dimen/playlistItem_song_title_textSize"
             android:textStyle="bold" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Artist"
-            android:textSize="20sp" />
+            android:textSize="@dimen/playlistItem_artist_name_textSize" />
     </LinearLayout>
 
     <TextView

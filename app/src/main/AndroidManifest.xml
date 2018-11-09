@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PlaylistActivity" />
-        <activity android:name=".PlayerActivity"></activity>
+        <activity android:name=".PlayerActivity"
+            android:screenOrientation="portrait">
+        </activity>
     </application>
 
 </manifest>
