@@ -11,16 +11,21 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlaylistActivity" />
+        <activity android:name=".PlaylistActivity"
+            android:label="@string/playlist_screen_label"/>
+
         <activity android:name=".PlayerActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:label="@string/player_screen_label"
+            android:parentActivityName=".PlaylistActivity">
         </activity>
     </application>
 

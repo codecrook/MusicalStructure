@@ -17,3 +17,6 @@ MusicalStructure is a simple application to imitate some basic actions of a simp
 ## Copyright
 
 &copy; Deeptiman Mallick
+
+
+All icons used in the project are downloaded from [Flaticon](http://flaticon.com/)
