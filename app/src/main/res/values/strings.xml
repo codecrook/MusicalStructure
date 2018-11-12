@@ -8,4 +8,12 @@
 
     <string name="playlist_screen_label">My Playlist</string>
     <string name="player_screen_label">Now Playing</string>
+
+    <string name="control_shuffle">shuffle</string>
+    <string name="control_download">download</string>
+    <string name="control_fav">favourite</string>
+    <string name="control_playlist">playlist</string>
+    <string name="control_prev">previous</string>
+    <string name="control_play">play</string>
+    <string name="control_next">next</string>
 </resources>

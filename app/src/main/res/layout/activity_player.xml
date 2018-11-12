@@ -87,6 +87,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/upper_cp_img_height"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_shuffle"
                 android:scaleType="fitCenter"
                 android:src="@drawable/shuffle" />
 
@@ -94,6 +95,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/upper_cp_img_height"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_download"
                 android:scaleType="fitCenter"
                 android:src="@drawable/download" />
 
@@ -101,6 +103,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/upper_cp_img_height"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_fav"
                 android:scaleType="fitCenter"
                 android:src="@drawable/like" />
 
@@ -108,6 +111,7 @@
                 android:layout_width="0dp"
                 android:layout_height="@dimen/upper_cp_img_height"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_playlist"
                 android:scaleType="fitCenter"
                 android:src="@drawable/playlist" />
         </LinearLayout>
@@ -123,6 +127,7 @@
                 android:layout_height="@dimen/lower_cp_img_height"
                 android:layout_marginTop="@dimen/lower_cp_img_marginTop"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_prev"
                 android:scaleType="fitCenter"
                 android:src="@drawable/previous" />
 
@@ -130,6 +135,7 @@
                 android:layout_width="0dp"
                 android:layout_height="64dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_play"
                 android:scaleType="fitCenter"
                 android:src="@drawable/play" />
 
@@ -138,6 +144,7 @@
                 android:layout_height="@dimen/lower_cp_img_height"
                 android:layout_marginTop="@dimen/lower_cp_img_marginTop"
                 android:layout_weight="1"
+                android:contentDescription="@string/control_next"
                 android:scaleType="fitCenter"
                 android:src="@drawable/next" />
         </LinearLayout>
